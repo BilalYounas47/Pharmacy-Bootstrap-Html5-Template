@@ -1,0 +1,36 @@
+.headerTop{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    
+    
+    
+  }
+ .header-inner{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+          
+ } 
+ .logo{
+    float: left;
+    margin-top: auto;
+    margin-left: 4px;
+    width: 60px;
+    height: auto;
+    transition: 0.3s ease;
+  }
+  .pharmacyName{
+    color: lightgrey;
+    font-size: xx-large;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+.bg{
+  background-image: url(/images/home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
